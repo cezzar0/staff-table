@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Table</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.jpg">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0f0c29;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+
+        table {
+            margin: 10px auto;
+            width: 100vh;
+            text-align: center;
+        }
+
+        table td {
+            background-color: #009688;
+            padding: 10px;
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        table img {
+            width: 200px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid gold;
+        }
+
+        table thead tr th {
+            color: white;
+            padding: 30px;
+            background-color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Staff Info Table:</h1>
+
+    <!-- Start Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Job Description</th>
+                <th>Shift</th>
+                <th>Phone</th>
+                <th>Photo</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <!-- Chef 1 -->
+
+            <tr>
+                <td>1</td>
+                <td>Ahmed Emad</td>
+                <td>Executive Chef</td>
+                <td>From 9 AM:3 PM</td>
+                <td>+20123456789</td>
+                <td><img src="images/chef-1.jpg" alt="chef-1"></td>
+            </tr>
+
+            <!-- Chef 2 -->
+
+            <tr>
+                <td>2</td>
+                <td>Omar Salah</td>
+                <td>Head Chef</td>
+                <td>From 9 AM:3 PM</td>
+                <td>+20113456789</td>
+                <td><img src="images/chef-2.jpg" alt="chef-2"></td>
+            </tr>
+
+            <!-- Chef 3 -->
+
+            <tr>
+                <td>3</td>
+                <td>Sara Ahmed</td>
+                <td>Deputy Chef</td>
+                <td>From 3 AM: 11PM</td>
+                <td>+20124567890</td>
+                <td><img src="images/chef-3.jpg" alt="chef-3"></td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- End Table -->
+</body>
+
+</html>
